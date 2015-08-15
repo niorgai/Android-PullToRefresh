@@ -311,6 +311,11 @@ public abstract class LoadingLayout extends FrameLayout implements ILoadingLayou
 		mHeaderText.setTypeface(tf);
 	}
 
+	@Override
+	public void setBackgroundColorResource(int resid) {
+		LoadingLayout.this.setBackgroundColorResource(resid);
+	}
+
 	public final void showInvisibleViews() {
 		if (View.INVISIBLE == mHeaderText.getVisibility()) {
 			mHeaderText.setVisibility(View.VISIBLE);

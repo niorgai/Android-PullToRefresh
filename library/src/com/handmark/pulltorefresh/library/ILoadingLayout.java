@@ -54,4 +54,10 @@ public interface ILoadingLayout {
 	 */
 	public void setTextTypeface(Typeface tf);
 
+	/**
+	 * Set the Background of Loading Layout
+	 * @param resId
+	 */
+	public void setBackgroundColorResource(int resId);
+
 }
